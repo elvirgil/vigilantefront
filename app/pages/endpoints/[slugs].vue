@@ -1,13 +1,11 @@
 <template>
     <div>
-      <p> {{ $router.params.slug }}</p>
+      <p> {{ $route.params.slug }}</p>
     </div>
 </template>
 
-<script>
-    export default {
-        
-    }
+<script setup lang="ts">
+  const route = useRoute()
 </script>
 
 <style lang="scss" scoped>
