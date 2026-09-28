@@ -4,6 +4,10 @@
         <button @click="mostrarExito">
             Guardar
         </button>
+
+        <button type="click" @click="mostrarError">
+            Error
+        </button>
     </div>
 </template>
 
@@ -17,6 +21,10 @@
 
     const mostrarExito = () => {
         toast.success('Saved', 'Your changes were saved.')
+    }
+
+    function mostrarError() {
+        toast.error('Error', 'Something went wrong.')
     }
 
 </script>
