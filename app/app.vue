@@ -5,6 +5,7 @@ import Notify from './components/notify.vue';
 
 <template>
   <div>
+    <Menu />
     <NuxtPage />
     <Notify />
   </div>
