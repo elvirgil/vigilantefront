@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^4.5.2",
-    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@nuxtjs/tailwindcss": "npm:@nuxtjs/tailwindcss@nightly",
     "nuxt": "^4.5.2",
     "nuxt-notify": "^1.1.5",
     "nuxt-toc": "^3.0.0",
